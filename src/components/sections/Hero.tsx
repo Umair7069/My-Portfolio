@@ -126,7 +126,7 @@ export function Hero() {
           className="text-2xl md:text-4xl text-foreground font-semibold mb-6 flex gap-2 items-center justify-center min-h-[48px]"
           variants={itemVariants}
         >
-          I build <span className="text-primary"><Typewriter words={["REST APIs", "Backend Systems", "Microservices", "Databases"]} delay={2500} /></span>
+          I build <span className="text-primary"><Typewriter words={["Full Stack Apps", "React Interfaces", ".NET Core APIs", "Scalable Systems"]} delay={2500} /></span>
         </motion.h2>
 
         <motion.p 

@@ -2,7 +2,7 @@
 
 import { motion } from "framer-motion";
 import { portfolioData } from "@/config/data";
-import { Code2, Server, Database, Braces } from "lucide-react";
+import { Code2, Server, Database, Braces, Layout } from "lucide-react";
 
 export function About() {
   const containerVariants = {
@@ -16,10 +16,10 @@ export function About() {
   };
 
   const cards = [
-    { title: "Backend Systems", icon: <Server size={24} className="text-primary" />, desc: "Building scalable & reliable architectures." },
-    { title: "REST APIs", icon: <Code2 size={24} className="text-secondary" />, desc: "Designing clean and efficient API endpoints." },
+    { title: "React Frontend", icon: <Layout size={24} className="text-primary" />, desc: "Crafting dynamic & responsive user interfaces." },
+    { title: ".NET Core Backend", icon: <Server size={24} className="text-secondary" />, desc: "Building scalable APIs & backend services." },
     { title: "Databases", icon: <Database size={24} className="text-primary" />, desc: "Structuring optimized data storage solutions." },
-    { title: "Clean Architecture", icon: <Braces size={24} className="text-secondary" />, desc: "Writing maintainable and decoupled code." },
+    { title: "Full Stack Architecture", icon: <Braces size={24} className="text-secondary" />, desc: "Delivering seamless end-to-end solutions." },
   ];
 
   return (

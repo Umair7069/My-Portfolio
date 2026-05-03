@@ -1,8 +1,8 @@
 export const portfolioData = {
   personalInfo: {
     name: "Muhammad Umair",
-    title: "Backend Engineer | .NET Core & Django Developer",
-    tagline: "Building scalable, secure, and real-world backend systems",
+    title: "Full Stack Developer | React & .NET Core",
+    tagline: "Building end-to-end web applications with modern frontend experiences and robust backend systems",
     image: "https://github.com/Umair7069.png", // Pulling directly from your GitHub!
     email: "khanumair7069@gmail.com",
     linkedin: "https://linkedin.com/in/muhammad-umair-b803a3325",
@@ -11,40 +11,40 @@ export const portfolioData = {
   },
   about: {
     journey: [
-      "Started as an Intern learning backend fundamentals.",
-      "Progressed to a Remote Backend Developer at DevForHealth.",
-      "Specialized in REST API development and robust Database Design.",
-      "Passionate about Clean Architecture and building highly scalable backend systems."
+      "Started as an Intern learning backend fundamentals and quickly expanded into frontend development.",
+      "Progressed to a Remote Full Stack Developer at DevForHealth, building complete web applications.",
+      "Specialized in React for crafting dynamic, responsive UIs and .NET Core for building scalable backend APIs.",
+      "Passionate about Clean Architecture and delivering seamless full-stack experiences from database to browser."
     ]
   },
   skills: {
-    backend: [".NET Core", "Django", "REST APIs"],
+    frontend: ["React", "JavaScript", "TypeScript", "HTML/CSS", "Responsive Design"],
+    backend: [".NET Core", "REST APIs", "C#", "Django"],
     databases: ["SQL Server", "MySQL"],
-    programming: ["C++", "Java", "Python", "JavaScript", "TypeScript"],
-    concepts: ["OOP", "Clean Architecture", "Microservices (Learning)"],
+    concepts: ["OOP", "Clean Architecture", "Full Stack Development", "Microservices (Learning)"],
   },
   experience: [
     {
-      role: "Backend Developer",
+      role: "Full Stack Developer",
       company: "DevForHealth",
       date: "Jan 2026 - Present",
-      description: "Developing robust backend systems, REST APIs, and efficient database architectures for health-tech platforms."
+      description: "Building end-to-end health-tech platforms — developing interactive React frontends and robust .NET Core backend APIs with efficient database architectures."
     }
   ],
   projects: [
     {
-      title: "Django Web Scanner",
-      description: "Backend-based web vulnerability scanner.",
-      tech: ["Django", "Python"],
-      features: ["REST APIs", "System Logic"],
-      githubUrl: "https://github.com/Umair7069/Django-WebScanner" 
+      title: "ECommerce ASP.NET Core",
+      description: "Full-stack e-commerce platform with a React-based storefront and a .NET Core backend handling products, cart logic, and secure checkout.",
+      tech: ["React", ".NET Core", "C#", "SQL Server"],
+      features: ["Clean Architecture", "Responsive UI", "Database Design", "Secure APIs"],
+      githubUrl: "https://github.com/Umair7069/ECommerce-ASP.NET-Core"
     },
     {
-      title: "ECommerce ASP.NET Core",
-      description: "Comprehensive backend architecture for an e-commerce platform handling products, cart algorithms, and checkout systems.",
-      tech: [".NET Core", "C#", "SQL Server"],
-      features: ["Clean Architecture", "Database Design", "Secure APIs"],
-      githubUrl: "https://github.com/Umair7069/ECommerce-ASP.NET-Core"
+      title: "Django Web Scanner",
+      description: "Full-stack web vulnerability scanner with an interactive frontend and a Django-powered backend for scanning and reporting.",
+      tech: ["Django", "Python", "JavaScript"],
+      features: ["REST APIs", "Dynamic UI", "System Logic"],
+      githubUrl: "https://github.com/Umair7069/Django-WebScanner" 
     }
   ]
 };

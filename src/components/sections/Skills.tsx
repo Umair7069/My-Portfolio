@@ -5,9 +5,9 @@ import { portfolioData } from "@/config/data";
 
 export function Skills() {
   const categories = [
+    { name: "Frontend", items: portfolioData.skills.frontend },
     { name: "Backend", items: portfolioData.skills.backend },
     { name: "Databases", items: portfolioData.skills.databases },
-    { name: "Programming", items: portfolioData.skills.programming },
     { name: "Concepts", items: portfolioData.skills.concepts },
   ];
 
